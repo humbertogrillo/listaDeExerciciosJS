@@ -4,7 +4,7 @@
 // Dica: a operação % retorna o RESTO da divisão entre dois
 // números inteiros.
 
-function parImpar(){
+function parImpar(numero){
 
 }
 
