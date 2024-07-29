@@ -10,5 +10,5 @@
 6. Cada arquivo de exercício tem um arquivo com mesmo nome e extensão .test.js
 7. Para ter certeza que o resultado fornecido é o correto, execute o teste:
 ```
-node [nome_do_arquivo.test.js]
+node [nome_do_arquivo].test.js
 ```
