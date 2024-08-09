@@ -9,11 +9,6 @@ function calculaMedia (arr) {
 
 }
 
-function calculaModa (arr) {
-
-}
-
 module.exports = {
     calculaMedia,
-    calculaModa
 }
