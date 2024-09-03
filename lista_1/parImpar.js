@@ -5,7 +5,7 @@
 // números inteiros.
 
 function parImpar(numero){
-
+    
 }
 
 module.exports = {
