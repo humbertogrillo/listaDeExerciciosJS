@@ -36,10 +36,20 @@ Tente ater seus esforços a resolver o problema atual, sem antecipar comportamen
 
 ### 03/09/2024
 
-1 - Crie um servidor usando express.js em um novo projeto criado nesta pasta com o nome escola_organizada
+1. Crie um servidor usando express.js em um novo projeto criado nesta pasta com o nome escola_organizada
 
-2 - Crie um modelo de dados para aluno, contendo "nome_completo": texto livre, "data_nascimento": texto DD/MM/AAAA, "disciplinas": lista de disciplina
+1. Crie um modelo de dados para aluno, contendo "nome_completo": texto livre, "data_nascimento": texto DD/MM/AAAA, "disciplinas": lista de disciplina
 
-3 - Crie um modelo de dados para disciplina, contendo "nome": texto livre, "carga_horaria": numero.
+5. Crie um modelo de dados para disciplina, contendo "nome": texto livre, "carga_horaria": numero.
 
-4 - Crie um método em aluno para adicionar ou remover uma disciplina pelo nome.
+1. Crie um método em aluno para adicionar ou remover uma disciplina pelo nome.
+
+### 04/09/2024
+
+1. Crie um endpoint / que retorna o nome da escola.
+
+2. Crie um endpoint /health/ que retorne 200 e uma mensagem "Serviço On-line"
+
+1. Crie o endpoint /alunos/ que retorna uma lista de aluno. Crie dois alunos de exemplo para retornar nesta lista.
+
+2. Crie um endpoint de /disciplinas/ que retorne uma lista de disciplina. Crie as disciplinas "Matemática" com carga horária 40, a matéria "Língua Portuguesa" com carga horária de 60 horas.
