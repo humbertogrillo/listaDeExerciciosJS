@@ -53,3 +53,13 @@ Tente ater seus esforços a resolver o problema atual, sem antecipar comportamen
 1. Crie o endpoint /alunos/ que retorna uma lista de aluno. Crie dois alunos de exemplo para retornar nesta lista.
 
 2. Crie um endpoint de /disciplinas/ que retorne uma lista de disciplina. Crie as disciplinas "Matemática" com carga horária 40, a matéria "Língua Portuguesa" com carga horária de 60 horas.
+
+### 09/09/2024
+
+1. Altere o modelo Aluno para conter um campo auto gerado chamado "matricula". Este falor deve ser criado no momento de instanciação do objeto e ser único.
+
+2. Crie um método em controle.js para buscar os alunos por nome, parte ou todo. Use regex para tal.
+
+3. Crie uma rota para encontrar alunos por nome */alunos?nome=valor/*
+
+4. O campo data_nascimento em aluno está usando um valor de string. Use uma forma de tratar o valor com o tipo Date. Procure por um pacote no NPM que ajude a criar objetos do tipo Date a partir de uma string no formato "DD/MM/AAAA", ou crie o seu próprio.
